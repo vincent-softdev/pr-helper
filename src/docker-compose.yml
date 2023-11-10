@@ -1,9 +1,9 @@
 version: '3'
 services:
-  pr-helper-ml:
-    build: domain/ml
-    ports:
-      - "5000:5000" # Example port
+  # pr-helper-ml:
+  #   build: domain/ml
+  #   # ports:
+  #   #   - "5000:5000" # Example port
 
   pr-helper-server:
     build: domain/server
