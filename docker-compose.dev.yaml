@@ -4,6 +4,6 @@ services:
   pr-helper-server:
     build:
       context: ./domain/server
-    command: ["uvicorn", "src.main:app", "--host", "0.0.0.0", "--port", "8000", "--reload"]
+    command: ["uvicorn", "src.main:app", "--host", "0.0.0.0", "--port", "8000", "--reload", "--reload-dir", "/src"]
     volumes:
       - ./domain/server/src:/module/src
