@@ -1,4 +1,4 @@
-FROM node:14
+FROM node:20.5-alpine
 
 WORKDIR /app
 
@@ -10,5 +10,3 @@ RUN npm install
 COPY . .
 
 RUN npm run build
-
-CMD ["npx", "serve", "-s", "build", "-l", "3000"]

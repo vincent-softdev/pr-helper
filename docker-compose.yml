@@ -6,11 +6,13 @@ services:
   #   #   - "5000:5000" # Example port
 
   pr-helper-server:
-    build: domain/server
+    build:
+      context: ./domain/server
     ports:
       - "8000:8000" # Example port
 
-  pr-helper-web:
-    build: domain/web
-    ports:
-      - "3000:3000" # Example port
+  # pr-helper-web:
+  #   build:
+  #     context: ./domain/web
+  #   ports:
+  #     - "3000:3000" # Example port
