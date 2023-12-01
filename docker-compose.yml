@@ -11,8 +11,8 @@ services:
     ports:
       - "8000:8000" # Example port
 
-  # pr-helper-web:
-  #   build:
-  #     context: ./domain/web
-  #   ports:
-  #     - "3000:3000" # Example port
+  pr-helper-web:
+    build:
+      context: ./domain/web
+    ports:
+      - "3000:3000" # Example port

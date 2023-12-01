@@ -1,0 +1,12 @@
+.btn{
+    &_custom{
+        background-color: hsl(211, 100%, 50%);
+        background: linear-gradient(to right, #34ebdf, #34ebc6);
+        color: black;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 6px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+}

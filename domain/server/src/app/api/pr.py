@@ -13,7 +13,7 @@ sample_pr = {
     "min_stay": 0,
     "max_stay": 5,
     "cost": 710,
-    "condition": "pply online in or outside Australia \
+    "condition": "Apply online in or outside Australia \
                 be enrolled in a course of study in Australia \
                 hold Overseas Student Health Cover (OSHC), or fall in one of the exemption categories \
                 must be 6 years or older \

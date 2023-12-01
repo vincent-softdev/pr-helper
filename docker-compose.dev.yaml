@@ -7,3 +7,13 @@ services:
     command: ["uvicorn", "src.main:app", "--host", "0.0.0.0", "--port", "8000", "--reload", "--reload-dir", "/src"]
     volumes:
       - ./domain/server/src:/module/src
+      
+  pr-helper-web:
+    build:
+      context: ./domain/web
+    command: ["npm", "run", "start"] # Replace with your start command
+    volumes:
+      - ./domain/web:/app
+      - /app/node_modules
+    ports:
+      - "3000:3000"

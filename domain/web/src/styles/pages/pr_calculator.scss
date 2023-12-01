@@ -1,0 +1,18 @@
+.pr{
+    &_calculator{
+        &_container{
+            width: 100%;
+            justify-content: center;
+            justify-items: center;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+        }
+
+        &_section{
+            &_subclass{
+                
+            }
+        }
+    }
+}
