@@ -1,0 +1,6 @@
+fastapi==0.104.1
+pydantic==2.4.2
+starlette==0.27.0
+uvicorn==0.24.0.post1
+sqlalchemy==2.0.23
+pysondb==1.6.7

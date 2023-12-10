@@ -1,0 +1,16 @@
+@use "../variables" as variables;
+
+.profile-statistics{
+    font-family: variables.$primary-font;
+
+    &-stat{
+        font-family: variables.$primary-font;
+        &-label{
+            
+        }
+
+        &-score{
+
+        }
+    }
+}

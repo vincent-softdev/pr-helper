@@ -1,18 +1,44 @@
+@use "../variables" as variables;
 .pr{
     &_calculator{
+        display: flex !important;
+        align-items: center;
+
         &_container{
             width: 100%;
+            max-width: 1280px;
             justify-content: center;
             justify-items: center;
             align-items: center;
-            display: flex;
             flex-direction: column;
+            padding-left: 30px;
+            padding-right: 30px;
         }
 
-        &_section{
-            &_subclass{
-                
-            }
+        &_title{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
+    }
+}
+
+.hover-text{
+    padding: 8px 16px;
+    border: none;
+    background-color: white;
+    color: variables.$primary-color;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid variables.$primary-color;
+
+    &:hover {
+        background-color: variables.$primary-color;
+        color: white;
+    }
+
+    &:nth-child(2) {
+        margin-right: 30px;
     }
 }

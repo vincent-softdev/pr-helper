@@ -9,4 +9,12 @@
         cursor: pointer;
         transition: background-color 0.3s ease;
     }
+
+    &_app_bar_menu{
+        text-decoration: none;
+    }
+}
+
+.css-1q39md6-MuiButtonBase-root-MuiButton-root{
+    margin-right: 10px !important;
 }

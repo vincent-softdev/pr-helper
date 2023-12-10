@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+  pr-helper-web:
+      build: ./domain/web
+      command: ["npm", "run", "start"] # Replace with your start command
+      volumes:
+        - ./domain/web:/app
+        - /app/node_modules
+      ports:
+        - "3000:3000"
+
+  pr-helper-pr-server:
+    build: ./domain/pr_server
+    command: ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000", "--reload", "--reload-dir", "/src"]
+    volumes:
+      - ./domain/pr_server/src:/src
+
+  pr-helper-user-server:
+    build: ./domain/user_server
+    command: ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8001", "--reload", "--reload-dir", "/src"]
+    volumes:
+      - ./domain/user_server/src:/src
+  

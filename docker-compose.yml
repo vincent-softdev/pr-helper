@@ -1,18 +1,19 @@
-version: '3'
+version: '3.8'
+
 services:
-  # pr-helper-ml:
-  #   build: domain/ml
-  #   # ports:
-  #   #   - "5000:5000" # Example port
-
-  pr-helper-server:
-    build:
-      context: ./domain/server
-    ports:
-      - "8000:8000" # Example port
-
   pr-helper-web:
-    build:
-      context: ./domain/web
+    build: ./domain/web
     ports:
       - "3000:3000" # Example port
+
+  pr-helper-pr-server:
+    build: ./domain/pr_server
+    ports:
+      - "8000:8000" # Example port
+  
+  pr-helper-user-server:
+    build: ./domain/user_server
+    ports:
+      - "8001:8001" # Example port
+
+  

@@ -1,0 +1,9 @@
+.account{
+    display: flex;
+    justify-content: center;
+
+    &-input-name{
+        max-width: 400px;
+        width: 100%;
+    }
+}

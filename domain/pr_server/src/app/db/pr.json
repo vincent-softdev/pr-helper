@@ -1,0 +1,95 @@
+{
+   "data": [
+      {
+         "name": "visa 500",
+         "type": "student",
+         "code": "500",
+         "waiting_time": 6,
+         "min_stay": 0,
+         "max_stay": 5,
+         "cost": 710,
+         "connect_with": [
+            "visa 485"
+         ],
+         "condition": "Apply online in or outside Australia                 be enrolled in a course of study in Australia                 hold Overseas Student Health Cover (OSHC), or fall in one of the exemption categories                 must be 6 years or older                 prove you have a welfare arrangement, if you are under 18                 If in Australia hold an eligible substantive visa. See, ‘Have this Visa if applying while in Australia” in Eligibility Tab.",
+         "ability": "participate in an eligible course of study in Australia                 travel in and out of Australia                 work up to 48 hours a fortnight when your course of study or training is in session.",
+         "id": 2
+      },
+      {
+         "name": "visa 485",
+         "type": "working",
+         "code": "485",
+         "waiting_time": 0.5,
+         "min_stay": 13.0,
+         "max_stay": 5.0,
+         "cost": 1560.0,
+         "condition": "English 500",
+         "connect_with": [
+            "visa 500",
+            "visa 190",
+            "visa 189"
+         ],
+         "ability": "move to 600",
+         "id": 3
+      },
+      {
+         "name": "visa 190",
+         "type": "working",
+         "code": "461",
+         "waiting_time": 1.0,
+         "min_stay": 2.0,
+         "max_stay": 5.0,
+         "cost": 1560.0,
+         "connect_with": ["visa 485"],
+         "condition": "English 500",
+         "ability": "move to 600",
+         "id": 4
+      },
+      {
+         "name": "visa 189",
+         "type": "string",
+         "code": "string",
+         "waiting_time": 0.0,
+         "min_stay": 0.0,
+         "max_stay": 0.0,
+         "cost": 0.0,
+         "condition": "string",
+         "ability": "string",
+         "connect_with": [
+            "visa 485"
+         ],
+         "id": 5
+      },
+      {
+         "name": "visa 491",
+         "type": "string",
+         "code": "string",
+         "waiting_time": 0.0,
+         "min_stay": 0.0,
+         "max_stay": 0.0,
+         "cost": 0.0,
+         "condition": "string",
+         "ability": "string",
+         "connect_with": [
+            "visa 191",
+            "visa 500"
+         ],
+         "id": 1
+      },
+      {
+         "name": "visa 191",
+         "type": "string",
+         "code": "string",
+         "waiting_time": 0.0,
+         "min_stay": 0.0,
+         "max_stay": 0.0,
+         "cost": 0.0,
+         "condition": "string",
+         "ability": "string",
+         "connect_with": [
+            "visa 491"
+         ],
+         "id": 1080608796
+      }
+   ]
+}

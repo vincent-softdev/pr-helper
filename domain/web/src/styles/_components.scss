@@ -1,4 +1,16 @@
 @use "components/button.scss";
 @use "components/header.scss";
 @use "components/footer.scss";
+@use "components/tooltip.scss";
+@use "components/card_component.scss";
+@use "components/profile_about.scss";
+@use "components/profile_social_media.scss";
+@use "components/account_data_input.scss";
+
+@use "features/profile_header.scss";
+@use "features/profile_statistic.scss";
+
 @use "pages/pr_calculator.scss";
+@use "pages/pr_network.scss";
+@use "pages/home.scss";
+@use "pages/account.scss";

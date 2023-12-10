@@ -1,0 +1,21 @@
+{
+   "data": [
+      {
+         "name": "vinh",
+         "current_visa_code": 500,
+         "age": 30,
+         "english_score": 6,
+         "australian_education": true,
+         "region_education": true,
+         "research_education": false,
+         "professional_year": false,
+         "qualification": 3,
+         "oversear_work_year": 0,
+         "australia_work_year": 0,
+         "partner": 0,
+         "pr_score": 0,
+         "designated_language": false,
+         "id": 3108158284
+      }
+   ]
+}
